@@ -38,3 +38,15 @@ while i < 10
     i += 1
     break if i == 4
 end
+
+# to skip certain elements
+for i in 1..3
+  next if i % 2 == 0
+  puts i
+end
+
+# loop until condition is true
+i = 1
+until i == 4 do
+  puts i
+end 
