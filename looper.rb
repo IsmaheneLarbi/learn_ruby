@@ -26,6 +26,7 @@ end
 5.downto(1) {|i| puts i}
 
 puts "loop using int.times {code block}"
+# Times and each are iterators
 # starts count at 0
 3.times {puts "oh oh"}
 puts "oh no no"
